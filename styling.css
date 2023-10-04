@@ -1,0 +1,67 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner {
+            background-color: #4FAECC;
+            background-image: url(images/ai.image.png);
+	    background-size: cover;
+	    background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #093593;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+	    opacity: 0.8;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+	
+	.card {
+            width: 700px;
+	    display: flex;
+            margin: 0 auto;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+	    justify-content: space-between;
+	    align-items: center;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+	.insurance-pic {
+            Width: 80px;
+            height: 80px;
+            border-radius: 20%;
+	    margin: 0 auto 20px auto;
+        }
+
+	.lifeinsurance-pic {
+            Width: 110px;
+            height: 80px;
+            border-radius: 30%;
+	    margin: 0 auto 20px auto;
+        }
